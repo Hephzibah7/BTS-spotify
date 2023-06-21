@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+*{
+  margin:0px;
+}
+body{
+    background-color:#ffb6c1;
+}
+.navbar ul 
+{
+    display:flex;
+    background-color:black;
+    width:100%;
+    height:55px;
+    list-style-type: none;
+    color:#ffffff;
+    align-items: center;
+    font-weight:bolder;
+    
+}  
+.title{
+    position:absolute;
+  font-size: 100px;
+  top:50px;
+}
+.detail
+{
+    display:inline;
+    position:absolute;
+    top:150px;
+    font-size:15px;
+    padding:0px 30px;
+    font-family: grandstander;
+}
+.part1
+{
+    display:flex;
+    position: relative;
+    z-index: 1px;
+    background-color:#FFE4E1;
+    margin: 10px 0px 0px 0px;
+    border-radius: 25px 25px 200px 25px;
+    height:250px;
+    width:750px;
+    left:15px;
+   
+}
+.navbar ul li
+{
+    padding:15px;
+}
+.btspic
+{
+
+    height:700px;
+    width:2000px;
+}
+.part2
+{
+    display:flex;
+    position:absolute;
+    z-index:-1px;
+    width:4700px;
+    top:250px;
+    left:300px;
+    right:700px;
+    min-height: 125vh;
+    background:url(bts3.webp);
+    background-repeat: no-repeat;
+
+}
+.navbar ul li img{
+    height:40px;
+    width:40px;
+}
+
+.songlist{
+    position:absolute;
+    background-color:#b57170;
+    opacity:60%;
+    top:100px;
+    height: 500px;
+    width:500px;
+    left:150px;
+    z-index: 5px;
+    border-radius: 20px;
+}
+.songlist h1{
+    color:white;
+    font-size:50px;
+    padding:10px;
+    font-family: grandstander;
+}
+.bottom{
+    position:absolute;
+    background-color: black;
+    height:100px;
+    width:100%;
+   top:900px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   color:white;
+   flex-direction: column;
+}
+.icons{
+    margin-top:14px;
+    height:20px;
+
+}
+.icons i{
+    cursor:pointer;
+}
+#progressbar{
+    width:80vw;
+    cursor:pointer;
+}
+.songitem{
+    height:50px;
+    display:flex;
+    background-color:white;
+    color:black;
+    margin:12px 12px;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 40px;
+    font-family: grandstander;
+    margin:15px;
+}
+.songitem img{
+    height:50px;
+    margin:0 25px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin:0 23px;
+    
+}
+.timestamp i{
+    cursor:pointer;
+}
+.songinfo{
+    position:absolute;
+    left:0px;
+    font-family: grandstander;
+  align-items: center;
+  margin:25px;
+}
+.songinfo img{
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
+.albums ul{
+    list-style-type: none;
+}
+.albums ul img{
+    width:150px;
+    padding:10px;
+    
+}
+.albums ul h1{
+    font-family: grandstander;
+    color:#d150ab;
+    text-decoration: wavy;
+    align-items: center;;
+}
+.members{
+    position:absolute;
+    top:0px;
+    right:10px;
+}
+.members ul{
+    list-style-type: none;
+}
+
+.members ul img{
+    width:100px;
+    margin:5px 2px 0 10px;;
+}
+
